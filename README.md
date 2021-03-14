@@ -3,6 +3,8 @@
   - [Escutando um elemento](#escutando-um-elemento)
   - [Capturando o valor dentro de um elemento](#capturando-o-valor-dentro-de-um-elemento)
   - [Trabalhando com formulários](#trabalhando-com-formulários)
+  - [Pegando o valor que está no console e adicionando no corpo da aplicação](#pegando-o-valor-que-está-no-console-e-adicionando-no-corpo-da-aplicação)
+  - [Criando elementos na DOM](#criando-elementos-na-dom)
 
 # JavaScript: Manipulando a DOM
 
@@ -27,3 +29,11 @@ No caso acima, estou utilizando um [data attribute](https://cursos.alura.com.br/
 O comportamento padrão do formulário vai ser sempre enviar dados, ele sempre está enviando dados para algum lugar.
 
 Para prevenir o comportamento padrão do formulário (que é enviar dados), utilizamos o `event.preventDefault() `, desta forma o formulário não envia o dado para algum lugar e assim a página não recarrega.
+
+## Pegando o valor que está no console e adicionando no corpo da aplicação
+
+Para adicionar elementos no documento utilizamos a função `innerHTML`.
+
+## Criando elementos na DOM
+
+Para criar elementos no documento utilizamos a função `document.createElement(<especificar_o_elemento>)` .
