@@ -3,6 +3,10 @@ const criarTarefa = (evento) => {
   const input = document.querySelector("[data-form-input]");
   const valor = input.value;
   console.log(valor);
+  const tarefa = document.querySelector("[data-task]");
+  const conteudo = `<p class="content">${valor}</p>`;
+  tarefa.innerHTML = conteudo;
+
   input.value = "";
 };
 
