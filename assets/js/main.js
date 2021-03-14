@@ -15,3 +15,14 @@ const criarTarefa = (evento) => {
 const novaTarefa = document.querySelector("[data-form-button]");
 
 novaTarefa.addEventListener("click", criarTarefa);
+
+
+
+const BotaaoConclui = () {
+    const botaoConclui = document.createElement('button')
+    botaoConclui.addEventListener('click', () => {
+        console.log('fui clicado');
+    })
+
+    return botaoConclui
+}
