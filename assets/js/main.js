@@ -51,7 +51,7 @@
     const botaoDeleta = evento.target;
     // quando eu deletar, quero deletar o elemento e não o botao
     const tarefaCompleta = botaoDeleta.parentElement;
-    // removendo o elemento
+    // removendo o elemento !
     tarefaCompleta.remove();
     return botaoDeleta;
   };
