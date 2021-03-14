@@ -5,8 +5,8 @@
   - [Trabalhando com formulários](#trabalhando-com-formulários)
   - [Pegando o valor que está no console e adicionando no corpo da aplicação](#pegando-o-valor-que-está-no-console-e-adicionando-no-corpo-da-aplicação)
   - [Criando elementos na DOM](#criando-elementos-na-dom)
-  - [Criando componentes](#criando-componentes)
   - [Utilizando a IIFE](#utilizando-a-iife)
+  - [Criando componentes](#criando-componentes)
 
 # JavaScript: Manipulando a DOM
 
@@ -40,10 +40,10 @@ Para adicionar elementos no documento utilizamos a função `innerHTML`.
 
 Para criar elementos no documento utilizamos a função `document.createElement(<especificar_o_elemento>)` .
 
-## Criando componentes
-
-Componentes são partes da sua aplicação e podem ser utilizados em várias partes dela, eles funcionam de forma independênte.
-
 ## Utilizando a IIFE
 
 Encapsulando o escopo da função para prevenir o usuário de acessar as funções do JavaScript
+
+## Criando componentes
+
+Componentes são partes da sua aplicação e podem ser utilizados em várias partes dela, eles funcionam de forma independênte.
