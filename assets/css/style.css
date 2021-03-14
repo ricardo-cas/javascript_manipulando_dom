@@ -1,3 +1,13 @@
+:root {
+  --background-color: #003f91;
+  --text-color: #ffffff;
+  --title-color: #f3f3f3;
+  --bg-task-color: #5da9e9;
+  --bg-task-done: #ee4266;
+  --bg-form-input-color: #6d326d;
+  --bg-button-edit: #fed766;
+}
+
 body {
   margin: 0;
 }
@@ -11,7 +21,7 @@ body {
 }
 
 .todo-list {
-  background-color: #0b2027;
+  background-color: var(--background-color);
   font-family: "Space Mono", monospace;
   padding: 1rem;
   min-width: 400px;
@@ -22,7 +32,7 @@ body {
   border-bottom: 1px solid rgba(246, 241, 209, 0.5);
   font-size: 1.5rem;
   font-family: "BioRhyme", serif;
-  color: #f6f1d1;
+  color: var(--title-color);
 }
 
 .form {
@@ -39,13 +49,13 @@ body {
 
 .form-input {
   outline: none;
-  background-color: #f6f1d1;
+  background-color: var(--text-color);
   border-color: rgba(255, 255, 255, 0.1);
 }
 
 .form-button {
   border: 1px;
-  background: #f6f1d1;
+  background: var(--text-color);
   text-transform: uppercase;
   cursor: pointer;
   margin-left: 0.25rem;
@@ -69,7 +79,7 @@ body {
 }
 
 .todo-list {
-  background-color: #0b2027;
+  background-color: var(--background-color);
   font-family: "Space Mono", monospace;
   padding: 1rem;
   min-width: 400px;
@@ -80,7 +90,7 @@ body {
   border-bottom: 1px solid rgba(246, 241, 209, 0.5);
   font-size: 1.5rem;
   font-family: "BioRhyme", serif;
-  color: #f6f1d1;
+  color: var(--title-color);
 }
 
 .form {
@@ -106,7 +116,7 @@ body {
   margin-left: 0.25rem;
 }
 .form-button:hover {
-  color: #f6f1d1;
+  color: var(--text-color);
   background: rgba(246, 241, 209, 0.1);
 }
 
@@ -117,8 +127,8 @@ body {
 }
 
 .task {
-  background-color: rgba(255, 255, 255, 0.1);
-  color: #f6f1d1;
+  background-color: rgba(93, 169, 233, 0.1);
+  color: var(--text-color);
   display: flex;
   justify-content: space-between;
   margin-bottom: 0.5rem;
@@ -150,7 +160,7 @@ body {
 }
 
 .task.done .check-icon {
-  background-color: #0b2027;
+  background-color: var(--bg-task-done);
 }
 
 .content {
@@ -161,4 +171,4 @@ body {
   text-decoration: line-through;
 }
 
-/*# sourceMappingURL=style.css.map */
+/* # sourceMappingURL=style.css.map */
